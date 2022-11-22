@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+ * This class exists to test the Calculator class.
 public class App {
     private static HashMap<String, Calculator.Command> commands = new HashMap<String, Calculator.Command>();
 
