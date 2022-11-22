@@ -14,7 +14,9 @@ import java.util.ArrayList;
 /// changing this class. This means that teh Calculator class is not Coupled
 /// to specific Command subclasses. Decoupling is almost always good design.
 class Calculator {
-    /// Base class for any number of subclasses
+    /**
+     * Issue #5: Base class for any number of subclasses
+     **/
     public static class Command {
         public void run(Calculator.Stack stack) {
         }
