@@ -46,7 +46,16 @@ class Calculator {
     /// The stack that contains operands to be used by Commands
     private Stack stack = new Calculator.Stack();
 
-    // Reads reverse polish notation from inputStream and returns result.
+    /**
+     *  
+     */
+    /**
+     * Issue#7: This function reads reverse polish notation from inputStream and returns result.
+     * @param inputStream A strean of operands and operations in RPN
+     * @param commands A Map of operation name to Command instance that implements the operation
+     * @return The result of the RPN calculations in inputStream
+     * @throws Exception
+     */
     public double processReversePolish(InputStream inputStream,
             HashMap<String, Command> commands)
             throws Exception {
