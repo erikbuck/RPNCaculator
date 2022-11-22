@@ -20,7 +20,9 @@ class Calculator {
         }
     }
 
-    /// Stack Data Structure i.e. LIFO
+    /**
+     * Issue#3: Stack Data Structure i.e. LIFO
+     */
     public static class Stack {
         private List<Double> m_numbers = new ArrayList<Double>();
 
