@@ -26,6 +26,7 @@ public class App {
         commands.put("sqrt", new SqrtCommand());
         commands.put("min", new MinCommand());
 
+        // Issue#6
         FileInputStream fis = new FileInputStream(
                 "numbers.txt");
         Scanner fisScanner = new Scanner(fis);
